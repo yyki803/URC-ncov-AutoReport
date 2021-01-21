@@ -4,10 +4,10 @@ name: Auto-report action
 
 on: 
   push:
-#    branches:
-#      - master
-#  schedule:
-#    - cron: '30 3,12 * * *'
+    branches:
+      - master
+  schedule:
+    - cron: '30 3,12 * * *'
 
 jobs:
   build:
